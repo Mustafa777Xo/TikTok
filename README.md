@@ -13,9 +13,8 @@ TikTok’s data team is in the earliest stages of the claims classification proj
 3- Identify relevant stakeholders.
 ```
 
-# A- STAGE TWO
+# B- STAGE TWO
 
-## A project proposal identifying the following:
 ```
 1- Build a dataframe for the TikTok dataset.
 
