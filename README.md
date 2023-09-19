@@ -14,9 +14,17 @@ The fifth attribute, ‘video_transcription_text’, is an object column that po
 The remaining five attributes are float columns representing various statistics about each video: the number of views (‘video_view_count’), likes (‘video_like_count’), shares (‘video_share_count’), downloads (‘video_download_count’), and comments (‘video_comment_count’). Each of these columns has some missing values.
 
 ## Modeling and Evaluation
+Random forest and XGBoost used for modling and selects the best performance model to test the data.
 The model's most predictive features were all related to the user engagement levels associated with each video. It was classifying videos based on how many views, likes, shares, and downloads they received.
 The model currently performs nearly perfectly, there is no need to engineer any new features.
 The current version of the model does not need any new features. However, it would be helpful to have the number of times the video was reported. It would also be useful to have the total number of user reports for all videos posted by each author.
+
+    ### confusion_matrix for random_forest model: 
+
+        ![](./images/random_forest_eva.png)
+
+
+
 ![](./images/random_forest.png)
 
 ## Conclusion
