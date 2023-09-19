@@ -14,9 +14,13 @@ The fifth attribute, ‘video_transcription_text’, is an object column that po
 The remaining five attributes are float columns representing various statistics about each video: the number of views (‘video_view_count’), likes (‘video_like_count’), shares (‘video_share_count’), downloads (‘video_download_count’), and comments (‘video_comment_count’). Each of these columns has some missing values.
 
 ## Modeling and Evaluation
-
-    .....
+The model's most predictive features were all related to the user engagement levels associated with each video. It was classifying videos based on how many views, likes, shares, and downloads they received.
+The model currently performs nearly perfectly, there is no need to engineer any new features.
+The current version of the model does not need any new features. However, it would be helpful to have the number of times the video was reported. It would also be useful to have the total number of user reports for all videos posted by each author.
+![](./images/random_forest.png)
 
 ## Conclusion
+In conclusion, this project aimed to develop a predictive model using statsmodels and scikit-learn to determine whether TikTok videos contain claims or opinions. The business objective was to enhance the triaging process of videos for human review, ultimately reducing user report backlogs and improving prioritization. The provided dataset included 19,382 entries with various attributes, primarily focused on video characteristics and engagement metrics.
 
-    .....
+The model successfully identified predictive features related to user engagement metrics such as views, likes, shares, and downloads, achieving near-perfect performance. While the current version of the model doesn't require additional feature engineering, it was suggested that including the number of video reports and aggregating user reports for each author could further enhance its capabilities. Overall, this project lays the foundation for TikTok to streamline content moderation and improve the user experience on the platform.
+
