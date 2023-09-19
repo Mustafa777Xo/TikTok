@@ -19,9 +19,9 @@ The model's most predictive features were all related to the user engagement lev
 The model currently performs nearly perfectly, there is no need to engineer any new features.
 The current version of the model does not need any new features. However, it would be helpful to have the number of times the video was reported. It would also be useful to have the total number of user reports for all videos posted by each author.
 
-    ### confusion_matrix for random_forest model: 
+### confusion_matrix for random_forest model: 
 
-        ![](./images/random_forest_eva.png)
+![](./images/random_forest_eva.png)
 
 
 
