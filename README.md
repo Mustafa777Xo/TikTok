@@ -23,7 +23,11 @@ The current version of the model does not need any new features. However, it wou
 
 ![](./images/random_forest_eva.png)
 
+### confusion_matrix for XGBoost model: 
 
+![](./images/XGBoostEva.png)
+
+### random_forest test set: 
 
 ![](./images/random_forest.png)
 
